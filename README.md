@@ -6,3 +6,4 @@ One of programming language Java.
 
 ## Memo
 【JavaEE】http://qiita.com/tkxlab/items/3c0d4073defacb1215f5
+【bin】= Bynary File
