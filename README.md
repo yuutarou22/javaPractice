@@ -1,6 +1,6 @@
 # This repository about.
 I'm going to make Android application.  
-And, I'm want to study Engsh.
+And, I'm want to study English.
 So I must study!  
 One of programming language Java.  
 
@@ -11,4 +11,5 @@ bin == Bynary File.
 commit == Changed record to regstration.  
 branch == Commit of branch.  
 marge  == Some branches and some commit to integrate.  
-push   == Local repository of commit into Remote repository.  
+push   == Local repository of commit into Remote repository.  
+pull request == Request to marge own changed commit.  
