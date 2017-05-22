@@ -4,7 +4,6 @@ public class Kiyoshi {
 	public static void main(String[] args) throws InterruptedException {
 		String[] zndk = new String[5];
 		boolean resalt = false;
-
 		while(resalt == false) {
 			for(int i = 0; i < 5; i++) {
 				int r = new java.util.Random().nextInt(2);
