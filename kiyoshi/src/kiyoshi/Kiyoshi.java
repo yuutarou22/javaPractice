@@ -8,14 +8,12 @@ public class Kiyoshi {
 			for(int i = 0; i < 5; i++) {
 				int r = new java.util.Random().nextInt(2);
 				switch (r) {
-				case 0:
-					zndk[i] = "ズン";
-					System.out.print("ズン");
-					break;
-				case 1:
-					zndk[i] = "ドコ";
-					System.out.print("ドコ");
-					break;
+					case 0: zndk[i] = "ズン";
+						System.out.print("ズン");
+						break;
+					case 1: zndk[i] = "ドコ";
+						System.out.print("ドコ");
+						break;
 				}
 				String kiyoshi = zndk[0] + zndk[1] + zndk[2] + zndk[3] + zndk[4];
 				if(i == 4 && kiyoshi.equals("ズンズンズンズンドコ")) {
@@ -33,21 +31,16 @@ public class Kiyoshi {
 					resalt = true;
 				} else {
 					switch (i) {
-					case 0:
-						Thread.sleep(900);
-						break;
-					case 1:
-						Thread.sleep(600);
-						break;
-					case 2:
-						Thread.sleep(600);
-						break;
-					case 3:
-						Thread.sleep(480);
-						break;
-					case 4:
-						Thread.sleep(480);
-						break;
+						case 0: Thread.sleep(900);
+							break;
+						case 1: Thread.sleep(600);
+							break;
+						case 2: Thread.sleep(600);
+							break;
+						case 3: Thread.sleep(480);
+							break;
+						case 4: Thread.sleep(480);
+							break;
 					}
 				}
 			}
